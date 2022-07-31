@@ -1,14 +1,15 @@
 <template>
-  <img alt="Vite logo" src="https://vitejs.dev/logo.svg">
+  <div>This is a example page</div>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  display: grid;
+  height: 100vh;
   color: #2c3e50;
-  margin-top: 60px;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+
+  place-items: center;
 }
 </style>

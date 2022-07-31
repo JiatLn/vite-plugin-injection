@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "preview": "vite build && vite preview"
+    "preview": "vite build && vite preview --open"
   },
   "dependencies": {
     "vue": "^3.2.37"
