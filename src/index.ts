@@ -8,7 +8,7 @@ export function VitePluginInjection(options: InjectionOptions = {}): Plugin {
   return {
     name: 'vite-plugin-injection',
     apply: 'build',
-    enforce: 'pre',
+    enforce: 'post',
     transformIndexHtml(html) {
       const buildTime = new Date().toLocaleString()
       return html.replace(
