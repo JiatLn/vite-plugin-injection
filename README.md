@@ -3,7 +3,11 @@
 [![NPM version](https://img.shields.io/npm/v/vite-plugin-injection?color=a1b858&label=)](https://www.npmjs.com/package/vite-plugin-injection)
 
 
-WIP
+Injection the build time to the index html. like this:
+
+```html
+<!-- build at 9/26/2022, 2:41:09 AM -->
+```
 
 
 ## Install
@@ -11,6 +15,8 @@ WIP
 ```bash
 npm i -D vite-plugin-injection
 ```
+
+## Usage
 
 ```ts
 // vite.config.ts
